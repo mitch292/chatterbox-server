@@ -25,7 +25,9 @@ var requestHandler = function(request, response) {
   var routes = {
     '/classes/messages/GET': true,
     '/classes/messages/POST': true,
-    '/classes/messages': true
+    '/classes/messages/OPTIONS': true,
+    '/classes/messages': true,
+    '/': true
   }
 
 
@@ -84,3 +86,4 @@ var defaultCorsHeaders = {
 };
 
 exports.requestHandler = requestHandler;
+exports.messages = messages;

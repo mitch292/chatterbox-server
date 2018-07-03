@@ -1,0 +1,26 @@
+{
+  "name": "chatterbox-client",
+  "homepage": "https://github.com/mitch292/hrnyc16-chatterbox-server",
+  "authors": [
+    "Andrew Mitchell <andrewpmitchell7@gmail.com>"
+  ],
+  "description": "bower json for chatterbox client in the first node sprint",
+  "main": "./client",
+  "keywords": [
+    "[\"chatterbox\"",
+    "\"client\"]"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "client/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
